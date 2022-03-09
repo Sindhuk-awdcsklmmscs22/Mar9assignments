@@ -1,0 +1,23 @@
+x=input()
+l=list(x)
+d=0
+a=0
+u=0
+w=0
+for i in l:
+    f=i.isdigit()
+    if f==True:
+        d=d+1
+    g=i.isalpha()
+    if g==True:
+        a=a+1
+    e=i.isupper()
+    if e==True:
+        u+=1
+    z=i.islower()
+    if z==True:
+        w+=1
+print('d:',d)
+print('a:',a)
+print('u:',u)
+print('l:',w)
