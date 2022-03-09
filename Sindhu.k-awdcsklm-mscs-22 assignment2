@@ -1,0 +1,3 @@
+str="aditya degree college.aditya is our college name" 
+print(str.count("aditya"))
+
